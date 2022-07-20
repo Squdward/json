@@ -82,7 +82,7 @@
         }
     ],
     "options": {
-        "frameSize": [
+        "frameSizeOptions": [
             {
               "id": 1,
               "value": "All",
