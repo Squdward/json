@@ -1,0 +1,48 @@
+[
+    {
+      "frameSize": [
+        {
+          "id": 1,
+          "value": "All",
+          "label": "Все"
+        },
+        {
+          "id": 2,
+          "value": "20",
+          "label": "20"
+        },
+        {
+          "id": 3,
+          "value": "25",
+          "label": "25"
+        }
+      ],
+      "brandsOptions": [
+        {
+          "id": 1,
+          "value": "All",
+          "label": "Все"
+        },
+        {
+          "id": 2,
+          "value": "SCHWINN",
+          "label": "SCHWINN"
+        },
+        {
+          "id": 3,
+          "value": "Cannondale",
+          "label": "Cannondale"
+        },
+        {
+          "id": 4,
+          "value": "Trek",
+          "label": "Trek"
+        },
+        {
+          "id": 5,
+          "value": "Giant",
+          "label": "Giant"
+        }
+      ]
+    }
+  ]
