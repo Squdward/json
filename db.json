@@ -53,7 +53,12 @@
             "name": "Городской велосипед Schwinn Traveler 20”",
             "price": "90 AED/день",
             "type": "Carbonfiber",
-            "available": true
+            "available": true,
+            "optionally": {
+              "helmet": false,
+              "flashlight": false,
+              "lock": false
+            }
         },
         {
             "id": 5,
