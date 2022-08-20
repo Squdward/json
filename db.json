@@ -278,36 +278,6 @@
             "fullPrice": "90"
           }
         ]
-      },
-      {
-        "id": 2,
-        "number": "4418",
-        "dataOrder": "18.08.2022",
-        "fullPrice": 300,
-        "isPaid": "Оплачен",
-        "status": 2,
-        "rentType": "2h",
-        "rentStart": "18.08.2022",
-        "rentEnd": "20.08.2022",
-        "payType": "Онлайн",
-        "delivery": "Доставка",
-        "deliveryPrice": "100",
-        "order": [
-          {
-            "id": 1,
-            "name": "Городской велосипед Schwinn Traveler 20”",
-            "price": "50",
-            "days": 2,
-            "fullPrice": "100"
-          },
-          {
-            "id": 2,
-            "name": "Городской велосипед Schwinn Traveler 20”",
-            "price": "50",
-            "days": 2,
-            "fullPrice": "100"
-          }
-        ]
       }
     ]
   }
