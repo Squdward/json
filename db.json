@@ -173,72 +173,200 @@
       }
     ]
   },
-  "orders": [
-    {
-      "id": 1,
-      "number": "12345",
-      "dataOrder": "20.08.2022",
-      "fullPrice": 300,
-      "isPaid": "Не оплачен",
-      "status": 0,
-      "rentType": "2h",
-      "rentStart": "20.08.2022",
-      "rentEnd": "22.08.2022",
-      "payType": "На месте",
-      "delivery": "Самовывоз",
-      "order": [
-        {
-          "id": 1,
-          "name": "Городской велосипед Schwinn Traveler 20”",
-          "price": "90",
-          "days": 2,
-          "fullPrice": "180"
-        },
-        {
-          "id": 2,
-          "name": "Городской велосипед Schwinn Traveler 20”",
-          "price": "180",
-          "days": 2,
-          "fullPrice": "360"
-        },
-        {
-          "id": 3,
-          "name": "Городской велосипед Schwinn Traveler 20”",
-          "price": "45",
-          "days": 2,
-          "fullPrice": "90"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "number": "4418",
-      "dataOrder": "18.08.2022",
-      "fullPrice": 300,
-      "isPaid": "Оплачен",
-      "status": 2,
-      "rentType": "2h",
-      "rentStart": "18.08.2022",
-      "rentEnd": "20.08.2022",
-      "payType": "Онлайн",
-      "delivery": "Доставка",
-      "deliveryPrice": "100",
-      "order": [
-        {
-          "id": 1,
-          "name": "Городской велосипед Schwinn Traveler 20”",
-          "price": "50",
-          "days": 2,
-          "fullPrice": "100"
-        },
-        {
-          "id": 2,
-          "name": "Городской велосипед Schwinn Traveler 20”",
-          "price": "50",
-          "days": 2,
-          "fullPrice": "100"
-        }
-      ]
-    }
-  ]
+  "orders": {
+    "currentOrders": [
+      {
+        "id": 1,
+        "number": "12345",
+        "dataOrder": "20.08.2022",
+        "fullPrice": 300,
+        "isPaid": "Не оплачен",
+        "status": 0,
+        "rentType": "2h",
+        "rentStart": "20.08.2022",
+        "rentEnd": "22.08.2022",
+        "payType": "На месте",
+        "delivery": "Самовывоз",
+        "order": [
+          {
+            "id": 1,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "90",
+            "days": 2,
+            "fullPrice": "180"
+          },
+          {
+            "id": 2,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "180",
+            "days": 2,
+            "fullPrice": "360"
+          },
+          {
+            "id": 3,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "45",
+            "days": 2,
+            "fullPrice": "90"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "number": "4418",
+        "dataOrder": "18.08.2022",
+        "fullPrice": 300,
+        "isPaid": "Оплачен",
+        "status": 2,
+        "rentType": "2h",
+        "rentStart": "18.08.2022",
+        "rentEnd": "20.08.2022",
+        "payType": "Онлайн",
+        "delivery": "Доставка",
+        "deliveryPrice": "100",
+        "order": [
+          {
+            "id": 1,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "50",
+            "days": 2,
+            "fullPrice": "100"
+          },
+          {
+            "id": 2,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "50",
+            "days": 2,
+            "fullPrice": "100"
+          }
+        ]
+      }
+    ],
+    "finaledOrders": [
+      {
+        "id": 1,
+        "number": "12345",
+        "dataOrder": "20.08.2022",
+        "fullPrice": 300,
+        "isPaid": "Не оплачен",
+        "status": 0,
+        "rentType": "2h",
+        "rentStart": "20.08.2022",
+        "rentEnd": "22.08.2022",
+        "payType": "На месте",
+        "delivery": "Самовывоз",
+        "order": [
+          {
+            "id": 1,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "90",
+            "days": 2,
+            "fullPrice": "180"
+          },
+          {
+            "id": 2,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "180",
+            "days": 2,
+            "fullPrice": "360"
+          },
+          {
+            "id": 3,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "45",
+            "days": 2,
+            "fullPrice": "90"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "number": "4418",
+        "dataOrder": "18.08.2022",
+        "fullPrice": 300,
+        "isPaid": "Оплачен",
+        "status": 2,
+        "rentType": "2h",
+        "rentStart": "18.08.2022",
+        "rentEnd": "20.08.2022",
+        "payType": "Онлайн",
+        "delivery": "Доставка",
+        "deliveryPrice": "100",
+        "order": [
+          {
+            "id": 1,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "50",
+            "days": 2,
+            "fullPrice": "100"
+          },
+          {
+            "id": 2,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "50",
+            "days": 2,
+            "fullPrice": "100"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "number": "1991",
+        "dataOrder": "26.12.1991",
+        "fullPrice": 550,
+        "isPaid": "Оплачен",
+        "status": 4,
+        "rentType": "2h",
+        "rentStart": "25.12.1991",
+        "rentEnd": "26.12.1991",
+        "payType": "Онлайн",
+        "delivery": "Самовывоз",
+        "deliveryPrice": "0",
+        "order": [
+          {
+            "id": 1,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "50",
+            "days": 1,
+            "fullPrice": "50"
+          },
+          {
+            "id": 2,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "50",
+            "days": 1,
+            "fullPrice": "50"
+          },
+          {
+            "id": 3,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "50",
+            "days": 1,
+            "fullPrice": "50"
+          },
+          {
+            "id": 4,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "100",
+            "days": 1,
+            "fullPrice": "100"
+          },
+          {
+            "id": 5,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "100",
+            "days": 1,
+            "fullPrice": "100"
+          },
+          {
+            "id": 6,
+            "name": "Городской велосипед Schwinn Traveler 20”",
+            "price": "200",
+            "days": 1,
+            "fullPrice": "200"
+          },
+        ]
+      }
+    ]
+  }
 }
