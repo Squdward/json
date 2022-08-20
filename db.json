@@ -184,7 +184,7 @@
       "rentType": "2h",
       "rentStart": "20.08.2022",
       "rentEnd": "22.08.2022",
-      "payType": "1",
+      "payType": "На месте",
       "delivery": "1",
       "order": [
         {
@@ -220,7 +220,7 @@
       "rentType": "2h",
       "rentStart": "18.08.2022",
       "rentEnd": "20.08.2022",
-      "payType": "2",
+      "payType": "Онлайн",
       "delivery": "2",
       "deliveryPrice": "100",
       "order": [
