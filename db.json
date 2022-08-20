@@ -185,7 +185,7 @@
       "rentStart": "20.08.2022",
       "rentEnd": "22.08.2022",
       "payType": "На месте",
-      "delivery": "1",
+      "delivery": "Самовывоз",
       "order": [
         {
           "id": 1,
@@ -221,7 +221,7 @@
       "rentStart": "18.08.2022",
       "rentEnd": "20.08.2022",
       "payType": "Онлайн",
-      "delivery": "2",
+      "delivery": "Доставка",
       "deliveryPrice": "100",
       "order": [
         {
